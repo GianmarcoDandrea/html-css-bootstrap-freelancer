@@ -6,15 +6,14 @@ img {
 /******************* ROOT ****************/
 :root {
     /* common */
-    --primary-text-color:#ffffff;
+    --primary-text-color: #ffffff;
     --gb-color-primary: #1ABC9C;
     --footer_top-bg-color: #3A546D;
-    --footer_bottom-bg-color:#2C3E50;
-    --nav-bg-color:#2C3E50;
+    --footer_bottom-bg-color: #2C3E50;
+    --nav-bg-color: #2C3E50;
 }
 
 /***************** UTILITIES **************/
-
 .flex-center {
     justify-content: center;
     align-items: center;
@@ -36,7 +35,7 @@ nav {
 }
 
 /***************** HERO *****************/
-.hero{
+.hero {
     width: 100%;
     background-color: var(--gb-color-primary);
 
@@ -67,34 +66,33 @@ nav {
 }
 
 /*************** PORTFOLIO ****************/
-
 [class*="prj-"] {
     /* debug */
     height: 250px;
     border: 1px solid black;
 }
 
-.prj-1{
+.prj-1 {
     background-color: #BA4B63;
 }
 
-.prj-2{
+.prj-2 {
     background-color: #1EA4B6;
 }
 
-.prj-3{
+.prj-3 {
     background-color: #140F0F;
 }
 
-.prj-4{
+.prj-4 {
     background-color: #1C83C1;
 }
 
-.prj-5{
+.prj-5 {
     background-color: #0E38B5;
 }
 
-.prj-6{
+.prj-6 {
     background-color: #CCB2A3;
 }
 
@@ -109,6 +107,7 @@ nav {
     width: fit-content;
     border: 1px solid white;
 }
+
 /* /debug */
 
 
@@ -124,8 +123,9 @@ nav {
 footer {
     color: var(--primary-text-color);
 }
+
 /*************** footer-top *************/
-.footer_top{
+.footer_top {
     background-color: var(--footer_top-bg-color);
 }
 
@@ -134,6 +134,7 @@ footer {
     height: 200px;
     border: 1px solid white;
 }
+
 /* /debug */
 
 /************* footer-bottom ***********/
