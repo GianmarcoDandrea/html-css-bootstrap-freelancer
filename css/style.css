@@ -7,17 +7,10 @@ img {
 :root {
     /* common */
     --primary-text-color:#ffffff;
+    --gb-color-primary: #1ABC9C;
 }
 
 /***************** UTILITIES **************/
-
-.flex-display {
-    display: flex;
-}
-
-.flex-column {
-    flex-direction: column;
-}
 
 .flex-center {
     justify-content: center;
@@ -54,7 +47,7 @@ nav {
 /***************** HERO *****************/
 .hero{
     width: 100%;
-    background-color: #1ABC9C;
+    background-color: var(--gb-color-primary);
 
 }
 
@@ -69,7 +62,6 @@ nav {
     width: 40%;
     aspect-ratio: 1/1;
     background-color: yellow;
-    border-radius: 50%;
 }
 
 .name {
@@ -84,17 +76,41 @@ nav {
 }
 
 /*************** PORTFOLIO ****************/
-.portfolio {
-    margin-top: 1.5rem;
-}
-
-.portfolio .section-title {
-    margin: 2rem 0;
-}
-
 
 [class*="prj-"] {
     /* debug */
     height: 250px;
     border: 1px solid black;
 }
+
+.prj-1{
+    background-color: #BA4B63;
+}
+
+.prj-2{
+    background-color: #1EA4B6;
+}
+
+.prj-3{
+    background-color: #140F0F;
+}
+
+.prj-4{
+    background-color: #1C83C1;
+}
+
+.prj-5{
+    background-color: #0E38B5;
+}
+
+.prj-6{
+    background-color: #CCB2A3;
+}
+
+/****************** ABOUT ******************/
+.about {
+    background-color: var(--gb-color-primary);
+    color: var(--primary-text-color);
+}
+
+/******************* CONTACT ME ************/
