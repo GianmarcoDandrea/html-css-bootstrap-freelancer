@@ -24,18 +24,6 @@ img {
     text-align: center;
 }
 
-.space-btw{
-    justify-content: space-between;
-}
-
-.space-rnd {
-    justify-content: space-around;
-}
-
-.space-vnl{
-    justify-content: space-evenly;
-}
-
 /************* NAVIGATION ***************/
 nav {
     background-color: var(--nav-bg-color);
