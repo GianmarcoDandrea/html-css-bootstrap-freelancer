@@ -113,4 +113,18 @@ nav {
     color: var(--primary-text-color);
 }
 
+/* debug */
+.download-btn {
+    width: 20%;
+    border: 1px solid white;
+}
+/* /debug */
+
+
 /******************* CONTACT ME ************/
+.form-section {
+    width: 80%;
+    /* debug */
+    height: 500px;
+    border: 1px solid black;
+}
