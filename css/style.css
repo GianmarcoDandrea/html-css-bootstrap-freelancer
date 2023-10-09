@@ -8,6 +8,9 @@ img {
     /* common */
     --primary-text-color:#ffffff;
     --gb-color-primary: #1ABC9C;
+    --footer_top-bg-color: #3A546D;
+    --footer_bottom-bg-color:#2C3E50;
+    --nav-bg-color:#2C3E50;
 }
 
 /***************** UTILITIES **************/
@@ -35,7 +38,7 @@ img {
 
 /************* NAVIGATION ***************/
 nav {
-    background-color: #2C3E50;
+    background-color: var(--nav-bg-color);
     position: fixed;
     top: 0;
     left: 0;
@@ -115,7 +118,7 @@ nav {
 
 /* debug */
 .download-btn {
-    width: 20%;
+    width: fit-content;
     border: 1px solid white;
 }
 /* /debug */
@@ -127,4 +130,25 @@ nav {
     /* debug */
     height: 500px;
     border: 1px solid black;
+}
+
+/****************** FOOTER **************/
+footer {
+    color: var(--primary-text-color);
+}
+/*************** footer-top *************/
+.footer_top{
+    background-color: var(--footer_top-bg-color);
+}
+
+/* debug */
+.footer_top .col-12 {
+    height: 200px;
+    border: 1px solid white;
+}
+/* /debug */
+
+/************* footer-bottom ***********/
+.footer_bottom {
+    background-color: var(--footer_bottom-bg-color);
 }
