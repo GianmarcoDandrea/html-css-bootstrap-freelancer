@@ -1,0 +1,100 @@
+/**************** COMMON *****************/
+img {
+    max-width: 100%;
+}
+
+/******************* ROOT ****************/
+:root {
+    /* common */
+    --primary-text-color:#ffffff;
+}
+
+/***************** UTILITIES **************/
+
+.flex-display {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-btw{
+    justify-content: space-between;
+}
+
+.space-rnd {
+    justify-content: space-around;
+}
+
+.space-vnl{
+    justify-content: space-evenly;
+}
+
+/************* NAVIGATION ***************/
+nav {
+    background-color: #2C3E50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* debug */
+    height: 80px;
+}
+
+/***************** HERO *****************/
+.hero{
+    width: 100%;
+    background-color: #1ABC9C;
+
+}
+
+.wrapper {
+    width: 80%;
+    /* debug */
+    margin-top: 7rem;
+}
+
+.photo {
+    /* debug */
+    width: 40%;
+    aspect-ratio: 1/1;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.name {
+    color: var(--primary-text-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.jobs {
+    color: var(--primary-text-color);
+    font-size: 1rem;
+}
+
+/*************** PORTFOLIO ****************/
+.portfolio {
+    margin-top: 1.5rem;
+}
+
+.portfolio .section-title {
+    margin: 2rem 0;
+}
+
+
+[class*="prj-"] {
+    /* debug */
+    height: 250px;
+    border: 1px solid black;
+}
