@@ -165,13 +165,19 @@ footer {
     background-color: var(--footer_top-bg-color);
 }
 
-/* debug */
-.footer_top .col-12 {
-    height: 200px;
-    border: 1px solid white;
+.social-icon { 
+
 }
 
-/* /debug */
+.social-icon a {
+    width: 20%;
+    aspect-ratio: 1/1;
+    color: var(--primary-text-color);
+}
+
+.about-freelancer a {
+    color: var(--gb-color-primary);
+}
 
 /************* footer-bottom ***********/
 .footer_bottom {
