@@ -25,7 +25,7 @@ img {
 }
 
 /************* NAVIGATION ***************/
-.header {
+header {
     background-color: var(--nav-bg-color);
     width: 100%;
     color: var(--primary-text-color);
