@@ -24,20 +24,28 @@ img {
     align-items: center;
 }
 
-.text-center {
-    text-align: center;
+/************* NAVIGATION ***************/
+.header {
+    background-color: var(--nav-bg-color);
+    width: 100%;
+    color: var(--primary-text-color);
 }
 
-/************* NAVIGATION ***************/
-nav {
-    background-color: var(--nav-bg-color);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    /* debug */
-    height: 80px;
+.navbar-brand,
+.nav-link,
+.ms_navbar-toggler-icon {
+    font-weight: bolder;
+    color: var(--primary-text-color);
 }
+
+.navbar-toggler {
+    border:1px solid white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
 
 /***************** HERO *****************/
 .hero {
