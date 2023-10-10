@@ -133,11 +133,26 @@ header {
 .contact-me {
     width: 100%;
 }
+
 .form-section {
-    width: 80%;
-    /* debug */
-    height: 500px;
-    border: 1px solid black;
+    width: 70%;
+}
+
+.ms_form-control {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+
+.ms_form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.send-btn {
+    background-color: var(--gb-color-primary);
+    color: var(--primary-text-color);
 }
 
 /****************** FOOTER **************/
