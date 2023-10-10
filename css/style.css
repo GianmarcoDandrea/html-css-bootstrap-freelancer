@@ -3,6 +3,11 @@ img {
     max-width: 100%;
 }
 
+.wrapper {
+    padding: 0 2rem;
+    width: 100%;
+}
+
 /******************* ROOT ****************/
 :root {
     /* common */
@@ -41,7 +46,7 @@ nav {
 
 }
 
-.wrapper {
+.wrapper-hero {
     width: 80%;
     /* debug */
     margin-top: 7rem;
@@ -112,6 +117,9 @@ nav {
 
 
 /******************* CONTACT ME ************/
+.contact-me {
+    width: 100%;
+}
 .form-section {
     width: 80%;
     /* debug */
