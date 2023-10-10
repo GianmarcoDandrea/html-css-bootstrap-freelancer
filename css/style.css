@@ -1,3 +1,23 @@
+/******************* ROOT ****************/
+:root {
+    /* common */
+    --primary-text-color: #ffffff;
+    --gb-color-primary: #1ABC9C;
+    --footer_top-bg-color: #3A546D;
+    --footer_bottom-bg-color: #2C3E50;
+    --nav-bg-color: #2C3E50;
+    --divider-color-1: #ffffff;
+    --divider-color-2: #2C3E50;
+
+    /* PORTFOLIO */
+    --prj-bg-1: #BA4B63;
+    --prj-bg-2: #1EA4B6;
+    --prj-bg-3: #140F0F;
+    --prj-bg-4: #1C83C1;
+    --prj-bg-5: #0E38B5;
+    --prj-bg-6: #CCB2A3;
+}
+
 /**************** COMMON *****************/
 img {
     max-width: 100%;
@@ -8,24 +28,21 @@ img {
     width: 100%;
 }
 
-/******************* ROOT ****************/
-:root {
-    /* common */
-    --primary-text-color: #ffffff;
-    --gb-color-primary: #1ABC9C;
-    --footer_top-bg-color: #3A546D;
-    --footer_bottom-bg-color: #2C3E50;
-    --nav-bg-color: #2C3E50;
-
-    /* PORTFOLIO */
-    --prj-bg-1: #BA4B63;
-    --prj-bg-2: #1EA4B6;
-    --prj-bg-3: #140F0F;
-    --prj-bg-4: #1C83C1;
-    --prj-bg-5: #0E38B5;
-    --prj-bg-6: #CCB2A3;
-
+hr {
+    width: 75px;
+    border: 3px solid;  
+    border-radius: 3px;
+    opacity: 1;
 }
+
+.style-1 {
+    color: var(--divider-color-1);
+}
+
+.style-2 {
+    color: var(--divider-color-2);
+}
+
 
 /***************** UTILITIES **************/
 .flex-center {
@@ -110,14 +127,6 @@ header {
     background-color: var(--gb-color-primary);
     color: var(--primary-text-color);
 }
-
-/* debug */
-.download-btn {
-    width: fit-content;
-    border: 1px solid white;
-}
-
-/* /debug */
 
 
 /******************* CONTACT ME ************/
