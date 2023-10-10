@@ -18,6 +18,7 @@
     --prj-bg-6: #CCB2A3;
 }
 
+
 /**************** COMMON *****************/
 img {
     max-width: 100%;
@@ -30,7 +31,7 @@ img {
 
 hr {
     width: 75px;
-    border: 3px solid;  
+    border: 3px solid;
     border-radius: 3px;
     opacity: 1;
 }
@@ -50,6 +51,7 @@ hr {
     align-items: center;
 }
 
+
 /************* NAVIGATION ***************/
 header {
     background-color: var(--nav-bg-color);
@@ -65,7 +67,7 @@ header {
 }
 
 .navbar-toggler {
-    border:1px solid white;
+    border: 1px solid white;
 }
 
 .navbar-toggler:focus {
@@ -97,6 +99,7 @@ header {
     color: var(--primary-text-color);
 }
 
+
 /*************** PORTFOLIO ****************/
 .prj-1 {
     background-color: var(--prj-bg-1);
@@ -121,6 +124,7 @@ header {
 .prj-6 {
     background-color: var(--prj-bg-6);
 }
+
 
 /****************** ABOUT ******************/
 .about {
@@ -155,29 +159,30 @@ header {
     color: var(--primary-text-color);
 }
 
+
 /****************** FOOTER **************/
 footer {
     color: var(--primary-text-color);
 }
+
 
 /*************** footer-top *************/
 .footer_top {
     background-color: var(--footer_top-bg-color);
 }
 
-.social-icon { 
 
-}
 
 .social-icon a {
-    width: 20%;
-    aspect-ratio: 1/1;
+    width: 2.5rem;
+    height: 2.5rem;
     color: var(--primary-text-color);
 }
 
 .about-freelancer a {
     color: var(--gb-color-primary);
 }
+
 
 /************* footer-bottom ***********/
 .footer_bottom {
