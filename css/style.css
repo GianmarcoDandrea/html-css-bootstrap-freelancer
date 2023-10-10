@@ -16,6 +16,15 @@ img {
     --footer_top-bg-color: #3A546D;
     --footer_bottom-bg-color: #2C3E50;
     --nav-bg-color: #2C3E50;
+
+    /* PORTFOLIO */
+    --prj-bg-1: #BA4B63;
+    --prj-bg-2: #1EA4B6;
+    --prj-bg-3: #140F0F;
+    --prj-bg-4: #1C83C1;
+    --prj-bg-5: #0E38B5;
+    --prj-bg-6: #CCB2A3;
+
 }
 
 /***************** UTILITIES **************/
@@ -72,34 +81,28 @@ header {
 }
 
 /*************** PORTFOLIO ****************/
-[class*="prj-"] {
-    /* debug */
-    height: 250px;
-    border: 1px solid black;
-}
-
 .prj-1 {
-    background-color: #BA4B63;
+    background-color: var(--prj-bg-1);
 }
 
 .prj-2 {
-    background-color: #1EA4B6;
+    background-color: var(--prj-bg-2);
 }
 
 .prj-3 {
-    background-color: #140F0F;
+    background-color: var(--prj-bg-3);
 }
 
 .prj-4 {
-    background-color: #1C83C1;
+    background-color: var(--prj-bg-4);
 }
 
 .prj-5 {
-    background-color: #0E38B5;
+    background-color: var(--prj-bg-5);
 }
 
 .prj-6 {
-    background-color: #CCB2A3;
+    background-color: var(--prj-bg-6);
 }
 
 /****************** ABOUT ******************/
