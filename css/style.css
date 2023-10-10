@@ -56,26 +56,19 @@ header {
 
 .wrapper-hero {
     width: 80%;
-    /* debug */
-    margin-top: 7rem;
 }
 
 .photo {
-    /* debug */
-    width: 40%;
-    aspect-ratio: 1/1;
-    background-color: yellow;
+    width: 45%;
 }
 
 .name {
     color: var(--primary-text-color);
-    font-size: 2rem;
     font-weight: bold;
 }
 
 .jobs {
     color: var(--primary-text-color);
-    font-size: 1rem;
 }
 
 /*************** PORTFOLIO ****************/
