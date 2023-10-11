@@ -117,14 +117,14 @@ header {
 
 
 /****************** ABOUT ******************/
-.about {
+#about {
     background-color: var(--gb-color-primary);
     color: var(--primary-text-color);
 }
 
 
 /******************* CONTACT ME ************/
-.contact-me {
+#contact-me {
     width: 100%;
 }
 
