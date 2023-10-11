@@ -76,7 +76,8 @@ header {
 }
 
 .photo {
-    width: 35%;
+    width: 80%;
+    max-width: 280px;
 }
 
 .name {
